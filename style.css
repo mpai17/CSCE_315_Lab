@@ -1,0 +1,77 @@
+h1 {
+	color: white;
+	font-family: Arial;
+}
+
+p {
+	color: white;
+	font-family: Arial;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 20px 15px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	height: 100%;
+	margin: 0;
+	background-image: url("https://c4.wallpaperflare.com/wallpaper/913/73/105/digital-art-dark-lines-wallpaper-thumb.jpg");
+}
+
+.navbar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-image: url("https://c4.wallpaperflare.com/wallpaper/913/73/105/digital-art-dark-lines-wallpaper-thumb.jpg");
+	position: fixed;
+	top: 0;
+	width: 100%;
+	box-shadow: 3px 3px 3px 3px #222;
+}
+
+.parallax {
+	background-image: url("https://img.freepik.com/free-vector/stylish-hexagonal-line-pattern-background_1017-19742.jpg?w=2000");
+	height: 100%; 
+  	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.left-box {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:30px;
+	color:white;
+	text-align:left;
+	padding:50px;
+	line-height:1.5;
+}
+
+.footer {
+	padding:50px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color:white;
+	text-align:center;
+	box-shadow: 3px 3px 3px 3px #222;
+}
+
+.title {
+	padding: 400px 0;
+	text-align: center;
+}
