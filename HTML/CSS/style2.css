@@ -1,0 +1,142 @@
+html {
+	scroll-behavior: smooth;
+	height: 100%;
+	margin: 0;
+}
+   
+h1 {
+	color: white;
+}
+
+p {
+	color: white;
+	font-size: x-large;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 20px 15px;
+	text-decoration: none;
+	font-family: 'Montserrat', serif;
+}
+
+body {
+	font-family: 'Montserrat', serif;	
+	height: 100%;
+	margin: 0;
+	background-image: url("https://c4.wallpaperflare.com/wallpaper/913/73/105/digital-art-dark-lines-wallpaper-thumb.jpg");
+	background-repeat: repeat;
+}
+
+a:link {
+	color: white;
+	background-color: transparent;
+	text-decoration: none;
+	opacity: 0.6;
+	transition: 0.2s;
+}
+
+a:hover {
+	color: yellow;
+	background-color: transparent;
+	text-decoration: none;
+	opacity: 1;
+}
+
+a:visited {
+	color: transparent;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+img {
+	border-radius: 60px;
+	padding: 2%;
+}
+
+.img-title {
+	padding: 3%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.navbar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-image: url("https://c4.wallpaperflare.com/wallpaper/913/73/105/digital-art-dark-lines-wallpaper-thumb.jpg");
+	position: fixed;
+	top: 0;
+	width: 100%;
+	box-shadow: 3px 3px 3px 3px #222;
+}
+
+.parallax {
+	background-image: url("https://img.freepik.com/free-vector/stylish-hexagonal-line-pattern-background_1017-19742.jpg?w=2000");
+	height: 100%; 
+  	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.parallax-mini {
+	background-image: url("https://img.freepik.com/free-vector/stylish-hexagonal-line-pattern-background_1017-19742.jpg?w=2000");
+	height: 50%; 
+  	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.parallax-micro {
+	background-image: url("https://img.freepik.com/free-vector/stylish-hexagonal-line-pattern-background_1017-19742.jpg?w=2000");
+	height: 25%; 
+  	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.layer {
+	font-size:30px;
+	color:white;
+	text-align:left;
+	padding:3%;
+	line-height:1.5;
+}
+
+.left {
+	float:left;
+	width:50%;
+}
+
+.right {
+	float:right;
+	width:50%;
+}
+
+.footer {
+	padding:20px;
+	font-size:20px;
+	color:white;
+	text-align:center;
+	box-shadow: 3px 3px 3px 3px #222;
+}
+
+.title-banner {
+	padding: 10%;
+	text-align: center;
+}
+
+.li-r{
+	padding: 0px 20px;
+	float: right;
+}
+
